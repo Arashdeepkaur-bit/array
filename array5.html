@@ -1,0 +1,22 @@
+<div id="ak">ed</div>
+<img src="" width="200px" height="200px">
+<button onclick="show()">button</button>
+<script language="javascript">
+    var a=["1.jpeg","2.jpeg","3.jpeg","4.jpeg","5.jpeg","6.jpeg","7.jpeg","8.jpeg"]
+    var b=[];
+    var i=0; 
+    var sum=0;
+   function show(){
+    let  n= parseInt(Math.random()*8)
+    ak.innerHTML= [n];
+        document.images[0].src=a[n];
+     b.push(n+1)
+   
+      for( let i=0;i<b.length;i++){
+    sum=b.reduce((i,f)=>i+f,0);
+    console.log(sum)
+         }
+  }
+</script>
+
+
