@@ -1,4 +1,4 @@
-let a=["d1.jpg","d2.jpeg","d3.jpeg","d4.jpeg","d5.png","d6.png"];
+let a =["d1.jpg","d2.jpeg","d3.jpeg","d4.jpeg","d5.png","d6.png"];
     function arash(){
         let n1=parseInt(Math.random()*6);
         h3.innerHTML=[n1+1];

@@ -2,7 +2,7 @@ let a=["1.jpeg","2.jpeg","3.jpeg","4.jpeg","5.jpeg","6.jpeg","7.jpeg","8.jpeg"]
 let b=[];
 let d=[];
 let sum=0;
-function show(){
+function show1(){
 // aa.innerHTML="Array:"+a[n];
 let  n= parseInt(Math.random()*8)
 aa.innerHTML="Array:"+a[n];
@@ -17,7 +17,7 @@ aq.innerHTML="Sum:"+sum;
      }
      console.log(sum)
 }
-function show1(){
+function show2(){
 let  n= parseInt(Math.random()*8)
 ad.innerHTML= "Number:"+[n];
 ab.innerHTML="Array:"+a[n];
