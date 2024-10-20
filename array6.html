@@ -1,22 +1,66 @@
-<div id="ak">ed</div>
-<img src="" width="200px" height="200px">
-<button onclick="show()">button</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="array6.css">
+</head>
+<body>
+  
+<div id="cont">
+  <div id="div">
+<div id="ak">Number</div>
+<div id="aa">Array</div>
+<div id="aq">Sum</div>
+<img src="1.jpeg" width="200px" height="200px"><br>
+<button onclick="show()">Team A</button>
+  </div>
 <script language="javascript">
-    var a=["1.jpeg","2.jpeg","3.jpeg","4.jpeg","5.jpeg","6.jpeg","7.jpeg","8.jpeg"]
-    var b=[];
-    var i=0; 
-    var sum=0;
+    let a=["1.jpeg","2.jpeg","3.jpeg","4.jpeg","5.jpeg","6.jpeg","7.jpeg","8.jpeg"]
+    let b=[];
+    let d=[];
+    let sum=0;
    function show(){
+    // aa.innerHTML="Array:"+a[n];
     let  n= parseInt(Math.random()*8)
-    ak.innerHTML= [n];
+    aa.innerHTML="Array:"+a[n];
+    ak.innerHTML="number: " +[n];
         document.images[0].src=a[n];
      b.push(n+1)
-   
+   console.log(b)
       for( let i=0;i<b.length;i++){
-    sum=b.reduce((i,f)=>i+f,0);
-    console.log(sum)
+    sum=sum+b[i]
+aq.innerHTML="sum:"+sum;
+  
          }
+         console.log(sum)
   }
+  function show1(){
+    let  n= parseInt(Math.random()*8)
+    ad.innerHTML= "number:"+[n];
+    ab.innerHTML="Array:"+a[n];
+        document.images[1].src=a[n];
+     d.push(n+1)
+   console.log(d)
+      for( let i=0;i<d.length;i++){
+    sum=sum+d[i]
+    as.innerHTML="sum:"+sum;
+         }
+         console.log(sum)
+  }
+   
+   
 </script>
+<div id="div">
+<div id="ad">Number</div>
+<div id="ab">Array</div>
+<div id="as">Sum</div>
+<img src="1.jpeg" width="200px" height="200px"><br>
+<button onclick="show1()">Team B</button>
+</div>
+</div>
+</body>
+</html>
 
 

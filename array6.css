@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(160, 228, 228);
+}
+
+#div{
+    display:inline-block;
+    margin: 150px;
+}
+div{
+    font-size: x-large;
+}

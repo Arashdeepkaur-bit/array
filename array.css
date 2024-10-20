@@ -1,0 +1,16 @@
+
+#container{
+text-align: center;
+}
+#play1{
+display: inline-block;
+margin: 20px;
+    }
+    #input{
+        width: 40px;
+    }
+    #button{
+        margin: 40px;
+    }
+
+        
