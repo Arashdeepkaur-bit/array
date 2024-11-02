@@ -40,6 +40,7 @@ let sum1=0;
                  console.log(sum)
         show();
     }
+
         function show(){
         let b=h3.innerHTML;
         let c=h.innerHTML;
@@ -49,6 +50,6 @@ let sum1=0;
     }
     else{
     result="player2 is winner";
-    } 
+    }
     document.getElementById("h1").innerHTML=result;
         }   
