@@ -12,6 +12,24 @@ margin: 20px;
 #button{
         margin: 40px;
     }
+    th{
+        border-color:black;
+        border-style: solid;
+        padding: 10px;
+        text-align: center;
     
+    }
+    table{
+        display: flex;
+        align-items: center;
+        margin-left: 550px;
+    }
+    td{
+        border-color:black;
+        border-style: solid;
+        padding: 10px;
+        text-align: center;
+    
+    }
 
         
